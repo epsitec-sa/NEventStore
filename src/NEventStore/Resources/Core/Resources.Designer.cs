@@ -66,7 +66,7 @@ namespace NEventStore {
         /// </summary>
         internal static string AddingCommitsToStream {
             get {
-                return ResourceManager.GetString("AddingCommitsToStream", resourceCulture);
+                return ResourceManagerStub.GetString("AddingCommitsToStream", resourceCulture);
             }
         }
         
@@ -75,7 +75,7 @@ namespace NEventStore {
         /// </summary>
         internal static string AddingSnapshot {
             get {
-                return ResourceManager.GetString("AddingSnapshot", resourceCulture);
+                return ResourceManagerStub.GetString("AddingSnapshot", resourceCulture);
             }
         }
         
@@ -84,7 +84,7 @@ namespace NEventStore {
         /// </summary>
         internal static string AlreadyDisposed {
             get {
-                return ResourceManager.GetString("AlreadyDisposed", resourceCulture);
+                return ResourceManagerStub.GetString("AlreadyDisposed", resourceCulture);
             }
         }
         
@@ -93,7 +93,7 @@ namespace NEventStore {
         /// </summary>
         internal static string AppendingUncommittedToStream {
             get {
-                return ResourceManager.GetString("AppendingUncommittedToStream", resourceCulture);
+                return ResourceManagerStub.GetString("AppendingUncommittedToStream", resourceCulture);
             }
         }
         
@@ -102,7 +102,7 @@ namespace NEventStore {
         /// </summary>
         internal static string AttemptingToCommit {
             get {
-                return ResourceManager.GetString("AttemptingToCommit", resourceCulture);
+                return ResourceManagerStub.GetString("AttemptingToCommit", resourceCulture);
             }
         }
         
@@ -111,7 +111,7 @@ namespace NEventStore {
         /// </summary>
         internal static string AttemptingToCommitChanges {
             get {
-                return ResourceManager.GetString("AttemptingToCommitChanges", resourceCulture);
+                return ResourceManagerStub.GetString("AttemptingToCommitChanges", resourceCulture);
             }
         }
         
@@ -120,7 +120,7 @@ namespace NEventStore {
         /// </summary>
         internal static string BuildingCommitAttempt {
             get {
-                return ResourceManager.GetString("BuildingCommitAttempt", resourceCulture);
+                return ResourceManagerStub.GetString("BuildingCommitAttempt", resourceCulture);
             }
         }
         
@@ -129,7 +129,7 @@ namespace NEventStore {
         /// </summary>
         internal static string ClearingUncommittedChanges {
             get {
-                return ResourceManager.GetString("ClearingUncommittedChanges", resourceCulture);
+                return ResourceManagerStub.GetString("ClearingUncommittedChanges", resourceCulture);
             }
         }
         
@@ -138,7 +138,7 @@ namespace NEventStore {
         /// </summary>
         internal static string CommitRejectedByPipelineHook {
             get {
-                return ResourceManager.GetString("CommitRejectedByPipelineHook", resourceCulture);
+                return ResourceManagerStub.GetString("CommitRejectedByPipelineHook", resourceCulture);
             }
         }
         
@@ -147,7 +147,7 @@ namespace NEventStore {
         /// </summary>
         internal static string CommittingAttempt {
             get {
-                return ResourceManager.GetString("CommittingAttempt", resourceCulture);
+                return ResourceManagerStub.GetString("CommittingAttempt", resourceCulture);
             }
         }
         
@@ -156,7 +156,7 @@ namespace NEventStore {
         /// </summary>
         internal static string ConvertingEvent {
             get {
-                return ResourceManager.GetString("ConvertingEvent", resourceCulture);
+                return ResourceManagerStub.GetString("ConvertingEvent", resourceCulture);
             }
         }
         
@@ -165,7 +165,7 @@ namespace NEventStore {
         /// </summary>
         internal static string CreatingStream {
             get {
-                return ResourceManager.GetString("CreatingStream", resourceCulture);
+                return ResourceManagerStub.GetString("CreatingStream", resourceCulture);
             }
         }
         
@@ -174,7 +174,7 @@ namespace NEventStore {
         /// </summary>
         internal static string DeletingStream {
             get {
-                return ResourceManager.GetString("DeletingStream", resourceCulture);
+                return ResourceManagerStub.GetString("DeletingStream", resourceCulture);
             }
         }
         
@@ -183,7 +183,7 @@ namespace NEventStore {
         /// </summary>
         internal static string DisposingEngine {
             get {
-                return ResourceManager.GetString("DisposingEngine", resourceCulture);
+                return ResourceManagerStub.GetString("DisposingEngine", resourceCulture);
             }
         }
         
@@ -192,7 +192,7 @@ namespace NEventStore {
         /// </summary>
         internal static string GettingAllCommitsFromBucketAndCheckpoint {
             get {
-                return ResourceManager.GetString("GettingAllCommitsFromBucketAndCheckpoint", resourceCulture);
+                return ResourceManagerStub.GetString("GettingAllCommitsFromBucketAndCheckpoint", resourceCulture);
             }
         }
         
@@ -201,7 +201,7 @@ namespace NEventStore {
         /// </summary>
         internal static string GettingAllCommitsFromCheckpoint {
             get {
-                return ResourceManager.GetString("GettingAllCommitsFromCheckpoint", resourceCulture);
+                return ResourceManagerStub.GetString("GettingAllCommitsFromCheckpoint", resourceCulture);
             }
         }
         
@@ -210,7 +210,7 @@ namespace NEventStore {
         /// </summary>
         internal static string GettingAllCommitsFromRevision {
             get {
-                return ResourceManager.GetString("GettingAllCommitsFromRevision", resourceCulture);
+                return ResourceManagerStub.GetString("GettingAllCommitsFromRevision", resourceCulture);
             }
         }
         
@@ -219,7 +219,7 @@ namespace NEventStore {
         /// </summary>
         internal static string GettingAllCommitsFromTime {
             get {
-                return ResourceManager.GetString("GettingAllCommitsFromTime", resourceCulture);
+                return ResourceManagerStub.GetString("GettingAllCommitsFromTime", resourceCulture);
             }
         }
         
@@ -228,7 +228,7 @@ namespace NEventStore {
         /// </summary>
         internal static string GettingAllCommitsFromToTime {
             get {
-                return ResourceManager.GetString("GettingAllCommitsFromToTime", resourceCulture);
+                return ResourceManagerStub.GetString("GettingAllCommitsFromToTime", resourceCulture);
             }
         }
         
@@ -237,7 +237,7 @@ namespace NEventStore {
         /// </summary>
         internal static string GettingSnapshotForStream {
             get {
-                return ResourceManager.GetString("GettingSnapshotForStream", resourceCulture);
+                return ResourceManagerStub.GetString("GettingSnapshotForStream", resourceCulture);
             }
         }
         
@@ -246,7 +246,7 @@ namespace NEventStore {
         /// </summary>
         internal static string GettingStreamsToSnapshot {
             get {
-                return ResourceManager.GetString("GettingStreamsToSnapshot", resourceCulture);
+                return ResourceManagerStub.GetString("GettingStreamsToSnapshot", resourceCulture);
             }
         }
         
@@ -255,7 +255,7 @@ namespace NEventStore {
         /// </summary>
         internal static string IgnoringBeforeRevision {
             get {
-                return ResourceManager.GetString("IgnoringBeforeRevision", resourceCulture);
+                return ResourceManagerStub.GetString("IgnoringBeforeRevision", resourceCulture);
             }
         }
         
@@ -264,7 +264,7 @@ namespace NEventStore {
         /// </summary>
         internal static string IgnoringBeyondRevision {
             get {
-                return ResourceManager.GetString("IgnoringBeyondRevision", resourceCulture);
+                return ResourceManagerStub.GetString("IgnoringBeyondRevision", resourceCulture);
             }
         }
         
@@ -273,7 +273,7 @@ namespace NEventStore {
         /// </summary>
         internal static string InitializingEngine {
             get {
-                return ResourceManager.GetString("InitializingEngine", resourceCulture);
+                return ResourceManagerStub.GetString("InitializingEngine", resourceCulture);
             }
         }
         
@@ -282,7 +282,7 @@ namespace NEventStore {
         /// </summary>
         internal static string InitializingPersistence {
             get {
-                return ResourceManager.GetString("InitializingPersistence", resourceCulture);
+                return ResourceManagerStub.GetString("InitializingPersistence", resourceCulture);
             }
         }
         
@@ -291,7 +291,7 @@ namespace NEventStore {
         /// </summary>
         internal static string InvokingPostCommitPipelineHooks {
             get {
-                return ResourceManager.GetString("InvokingPostCommitPipelineHooks", resourceCulture);
+                return ResourceManagerStub.GetString("InvokingPostCommitPipelineHooks", resourceCulture);
             }
         }
         
@@ -300,7 +300,7 @@ namespace NEventStore {
         /// </summary>
         internal static string InvokingPreCommitHooks {
             get {
-                return ResourceManager.GetString("InvokingPreCommitHooks", resourceCulture);
+                return ResourceManagerStub.GetString("InvokingPreCommitHooks", resourceCulture);
             }
         }
         
@@ -309,7 +309,7 @@ namespace NEventStore {
         /// </summary>
         internal static string NoChangesToCommit {
             get {
-                return ResourceManager.GetString("NoChangesToCommit", resourceCulture);
+                return ResourceManagerStub.GetString("NoChangesToCommit", resourceCulture);
             }
         }
         
@@ -318,7 +318,7 @@ namespace NEventStore {
         /// </summary>
         internal static string NoConflicts {
             get {
-                return ResourceManager.GetString("NoConflicts", resourceCulture);
+                return ResourceManagerStub.GetString("NoConflicts", resourceCulture);
             }
         }
         
@@ -327,7 +327,7 @@ namespace NEventStore {
         /// </summary>
         internal static string NoLongerTrackingStream {
             get {
-                return ResourceManager.GetString("NoLongerTrackingStream", resourceCulture);
+                return ResourceManagerStub.GetString("NoLongerTrackingStream", resourceCulture);
             }
         }
         
@@ -336,7 +336,7 @@ namespace NEventStore {
         /// </summary>
         internal static string NonPositiveRevisionNumber {
             get {
-                return ResourceManager.GetString("NonPositiveRevisionNumber", resourceCulture);
+                return ResourceManagerStub.GetString("NonPositiveRevisionNumber", resourceCulture);
             }
         }
         
@@ -345,7 +345,7 @@ namespace NEventStore {
         /// </summary>
         internal static string NonPositiveSequenceNumber {
             get {
-                return ResourceManager.GetString("NonPositiveSequenceNumber", resourceCulture);
+                return ResourceManagerStub.GetString("NonPositiveSequenceNumber", resourceCulture);
             }
         }
         
@@ -354,7 +354,7 @@ namespace NEventStore {
         /// </summary>
         internal static string OpeningStreamAtRevision {
             get {
-                return ResourceManager.GetString("OpeningStreamAtRevision", resourceCulture);
+                return ResourceManagerStub.GetString("OpeningStreamAtRevision", resourceCulture);
             }
         }
         
@@ -363,7 +363,7 @@ namespace NEventStore {
         /// </summary>
         internal static string OpeningStreamWithSnapshot {
             get {
-                return ResourceManager.GetString("OpeningStreamWithSnapshot", resourceCulture);
+                return ResourceManagerStub.GetString("OpeningStreamWithSnapshot", resourceCulture);
             }
         }
         
@@ -372,7 +372,7 @@ namespace NEventStore {
         /// </summary>
         internal static string OptimisticConcurrencyCheck {
             get {
-                return ResourceManager.GetString("OptimisticConcurrencyCheck", resourceCulture);
+                return ResourceManagerStub.GetString("OptimisticConcurrencyCheck", resourceCulture);
             }
         }
         
@@ -381,7 +381,7 @@ namespace NEventStore {
         /// </summary>
         internal static string PersistingCommit {
             get {
-                return ResourceManager.GetString("PersistingCommit", resourceCulture);
+                return ResourceManagerStub.GetString("PersistingCommit", resourceCulture);
             }
         }
         
@@ -390,7 +390,7 @@ namespace NEventStore {
         /// </summary>
         internal static string PipelineHookFilteredCommit {
             get {
-                return ResourceManager.GetString("PipelineHookFilteredCommit", resourceCulture);
+                return ResourceManagerStub.GetString("PipelineHookFilteredCommit", resourceCulture);
             }
         }
         
@@ -399,7 +399,7 @@ namespace NEventStore {
         /// </summary>
         internal static string PipelineHookSkippedCommit {
             get {
-                return ResourceManager.GetString("PipelineHookSkippedCommit", resourceCulture);
+                return ResourceManagerStub.GetString("PipelineHookSkippedCommit", resourceCulture);
             }
         }
         
@@ -408,7 +408,7 @@ namespace NEventStore {
         /// </summary>
         internal static string PurgingStore {
             get {
-                return ResourceManager.GetString("PurgingStore", resourceCulture);
+                return ResourceManagerStub.GetString("PurgingStore", resourceCulture);
             }
         }
         
@@ -417,7 +417,7 @@ namespace NEventStore {
         /// </summary>
         internal static string ReadOnlyCollection {
             get {
-                return ResourceManager.GetString("ReadOnlyCollection", resourceCulture);
+                return ResourceManagerStub.GetString("ReadOnlyCollection", resourceCulture);
             }
         }
         
@@ -426,7 +426,7 @@ namespace NEventStore {
         /// </summary>
         internal static string RevisionTooSmall {
             get {
-                return ResourceManager.GetString("RevisionTooSmall", resourceCulture);
+                return ResourceManagerStub.GetString("RevisionTooSmall", resourceCulture);
             }
         }
         
@@ -435,7 +435,7 @@ namespace NEventStore {
         /// </summary>
         internal static string ShuttingDownStore {
             get {
-                return ResourceManager.GetString("ShuttingDownStore", resourceCulture);
+                return ResourceManagerStub.GetString("ShuttingDownStore", resourceCulture);
             }
         }
         
@@ -444,7 +444,7 @@ namespace NEventStore {
         /// </summary>
         internal static string TrackingCommit {
             get {
-                return ResourceManager.GetString("TrackingCommit", resourceCulture);
+                return ResourceManagerStub.GetString("TrackingCommit", resourceCulture);
             }
         }
         
@@ -453,7 +453,7 @@ namespace NEventStore {
         /// </summary>
         internal static string TrackingStreams {
             get {
-                return ResourceManager.GetString("TrackingStreams", resourceCulture);
+                return ResourceManagerStub.GetString("TrackingStreams", resourceCulture);
             }
         }
         
@@ -462,7 +462,7 @@ namespace NEventStore {
         /// </summary>
         internal static string UnderlyingStreamHasChanged {
             get {
-                return ResourceManager.GetString("UnderlyingStreamHasChanged", resourceCulture);
+                return ResourceManagerStub.GetString("UnderlyingStreamHasChanged", resourceCulture);
             }
         }
         
@@ -471,7 +471,7 @@ namespace NEventStore {
         /// </summary>
         internal static string UpdatingStreamHead {
             get {
-                return ResourceManager.GetString("UpdatingStreamHead", resourceCulture);
+                return ResourceManagerStub.GetString("UpdatingStreamHead", resourceCulture);
             }
         }
         
@@ -480,7 +480,7 @@ namespace NEventStore {
         /// </summary>
         internal static string WireupHookIntoPipeline {
             get {
-                return ResourceManager.GetString("WireupHookIntoPipeline", resourceCulture);
+                return ResourceManagerStub.GetString("WireupHookIntoPipeline", resourceCulture);
             }
         }
         
@@ -489,7 +489,7 @@ namespace NEventStore {
         /// </summary>
         internal static string WireupSetPersistenceEngine {
             get {
-                return ResourceManager.GetString("WireupSetPersistenceEngine", resourceCulture);
+                return ResourceManagerStub.GetString("WireupSetPersistenceEngine", resourceCulture);
             }
         }
         
@@ -498,7 +498,7 @@ namespace NEventStore {
         /// </summary>
         internal static string WireupSetSerializer {
             get {
-                return ResourceManager.GetString("WireupSetSerializer", resourceCulture);
+                return ResourceManagerStub.GetString("WireupSetSerializer", resourceCulture);
             }
         }
     }

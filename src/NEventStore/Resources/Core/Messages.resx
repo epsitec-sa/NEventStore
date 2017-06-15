@@ -121,7 +121,7 @@
     <value>The instance provided cannot be null.</value>
   </data>
   <data name="TypeMustBeInterface" xml:space="preserve">
-    <value>The type provided must be registered as an interface rather than as a concrete type, e.g. "container.Register&lt;ISomeService&gt;(instance);".</value>
+    <value>The type provided must be registered as an interface rather than as a concrete type, e.g. "container.Register&gt;(instance);".</value>
   </data>
   <data name="AddingWireupRegistration" xml:space="preserve">
     <value>Adding wireup registration for an object instance of type '{0}'.</value>

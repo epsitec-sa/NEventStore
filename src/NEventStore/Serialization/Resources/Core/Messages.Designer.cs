@@ -66,7 +66,7 @@ namespace NEventStore.Serialization {
         /// </summary>
         internal static string DeserializingStream {
             get {
-                return ResourceManager.GetString("DeserializingStream", resourceCulture);
+                return ResourceManagerStub.GetString("DeserializingStream", resourceCulture);
             }
         }
         
@@ -75,7 +75,7 @@ namespace NEventStore.Serialization {
         /// </summary>
         internal static string InspectingTextStream {
             get {
-                return ResourceManager.GetString("InspectingTextStream", resourceCulture);
+                return ResourceManagerStub.GetString("InspectingTextStream", resourceCulture);
             }
         }
         
@@ -84,7 +84,7 @@ namespace NEventStore.Serialization {
         /// </summary>
         internal static string InvalidKeyLength {
             get {
-                return ResourceManager.GetString("InvalidKeyLength", resourceCulture);
+                return ResourceManagerStub.GetString("InvalidKeyLength", resourceCulture);
             }
         }
         
@@ -93,7 +93,7 @@ namespace NEventStore.Serialization {
         /// </summary>
         internal static string RegisteringKnownType {
             get {
-                return ResourceManager.GetString("RegisteringKnownType", resourceCulture);
+                return ResourceManagerStub.GetString("RegisteringKnownType", resourceCulture);
             }
         }
         
@@ -102,7 +102,7 @@ namespace NEventStore.Serialization {
         /// </summary>
         internal static string SerializingGraph {
             get {
-                return ResourceManager.GetString("SerializingGraph", resourceCulture);
+                return ResourceManagerStub.GetString("SerializingGraph", resourceCulture);
             }
         }
         
@@ -111,7 +111,7 @@ namespace NEventStore.Serialization {
         /// </summary>
         internal static string TypeIsArray {
             get {
-                return ResourceManager.GetString("TypeIsArray", resourceCulture);
+                return ResourceManagerStub.GetString("TypeIsArray", resourceCulture);
             }
         }
         
@@ -120,7 +120,7 @@ namespace NEventStore.Serialization {
         /// </summary>
         internal static string UsingTypedSerializer {
             get {
-                return ResourceManager.GetString("UsingTypedSerializer", resourceCulture);
+                return ResourceManagerStub.GetString("UsingTypedSerializer", resourceCulture);
             }
         }
         
@@ -129,7 +129,7 @@ namespace NEventStore.Serialization {
         /// </summary>
         internal static string UsingUntypedSerializer {
             get {
-                return ResourceManager.GetString("UsingUntypedSerializer", resourceCulture);
+                return ResourceManagerStub.GetString("UsingUntypedSerializer", resourceCulture);
             }
         }
     }

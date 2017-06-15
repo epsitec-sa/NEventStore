@@ -359,7 +359,7 @@ namespace NEventStore {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The type provided must be registered as an interface rather than as a concrete type, e.g. &quot;container.Register&lt;ISomeService&gt;(instance);&quot;..
+        ///   Looks up a localized string similar to The type provided must be registered as an interface rather than as a concrete type, e.g. &quot;container.Register&gt;(instance);&quot;..
         /// </summary>
         internal static string TypeMustBeInterface {
             get {
