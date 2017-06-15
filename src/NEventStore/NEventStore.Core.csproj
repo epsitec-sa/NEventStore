@@ -1,11 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
-    <Description />
+    <PackageId>NEventStore.Core</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Description> Port of the NEventStore core on NetCore</Description>
     <Authors>NEventStore</Authors>
     <Company>NEventStore</Company>
     <Product>NEventStore</Product>
     <RootNamespace>NEventStore</RootNamespace>
+    <Version>1.0.0</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>TRACE;DEBUG;NETSTANDARD1_6</DefineConstants>
